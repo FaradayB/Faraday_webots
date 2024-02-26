@@ -1,16 +1,173 @@
 #VRML_SIM R2023b utf8
+
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/bedroom/protos/Bed.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/plants/protos/BunchOfSunFlowers.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/tables/protos/Desk.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/chairs/protos/OfficeChair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/computers/protos/Monitor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/computers/protos/DesktopComputer.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/computers/protos/Keyboard.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/living_room_furniture/protos/Sofa.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Radiator.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/television/protos/Television.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/living_room_furniture/protos/Carpet.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/irobot/create/protos/Create.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/boston_dynamics/spot/protos/Spot.proto"
+
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.5773 0.5773 0.5773 2.0944
-  position 0 0 10
+  orientation -0.2825391385594823 0.19604171921242208 0.939009733448117 1.9866908663966203
+  position 5.222891998864645 -15.361932091028773 12.141754015956202
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
 }
 RectangleArena {
+  floorSize 7 6
+  floorAppearance Parquetry {
+  }
+  wallThickness 0.04
+  wallHeight 0.2
+}
+Spot {
+  hidden position_0_0 -0.20000125412224512
+  hidden position_0_1 0.20000147505097765
+  hidden position_0_2 -0.40000122949012673
+  hidden position_0_3 0.45463127693001487
+  hidden linearVelocity_0 0.00012442680309629107 4.040442573278401e-06 2.294956986626483e-05
+  hidden angularVelocity_0 -4.6544650890434e-05 0.0011790732986824504 -1.1962978571973994e-06
+  hidden rotation_18 0 0 -1 0.20000125412224612
+  hidden position_18_0 -0.33930141087306975
+  hidden linearVelocity_18 0.00012130840900679763 2.179318451123206e-06 0.00011921883881797544
+  hidden angularVelocity_18 -4.669501547387452e-05 0.0011793474591428519 -9.716988345550183e-07
+  hidden rotation_19 -1 0 0 0.33930141087307025
+  hidden position_19_1 -0.04431991803695356
+  hidden linearVelocity_19 -0.00048718833630137325 -0.0022388161466377126 0.00313197319568487
+  hidden angularVelocity_19 0.02443192295961276 3.8373862759406455e-06 0.004939872385993561
+  hidden rotation_21 -1 0 0 0.04431991803695416
+  hidden linearVelocity_21 -0.000614624314497603 -0.020091472206769736 0.0014130660940236484
+  hidden angularVelocity_21 0.08318091113221511 -0.0028184345942371793 0.016797338279537017
+  hidden rotation_22 0 0 1 0.2000014750509786
+  hidden position_22_0 -0.4000014340331387
+  hidden linearVelocity_22 0.00012506281835763497 4.035165150999832e-06 -6.8974231991990445e-06
+  hidden angularVelocity_22 -4.654491315028045e-05 0.0011790747787063728 -1.1987400346428747e-06
+  hidden rotation_23 -1 0 0 0.4000014340331384
+  hidden position_23_1 -0.18999995737175346
+  hidden linearVelocity_23 0.00019392966298489977 6.5855746369040645e-06 -0.000171916031280268
+  hidden angularVelocity_23 -4.6545124128746326e-05 0.0011790772722333476 -1.2011264418433262e-06
+  hidden rotation_25 -0.9999999999999999 0 0 0.1899999573717546
+  hidden linearVelocity_25 0.0005659936487288524 2.118844143167958e-05 -0.0002550271654902511
+  hidden angularVelocity_25 -4.6545099742111755e-05 0.0011790777848229433 -1.2010157470396427e-06
+  hidden rotation_26 0 0 -1 0.40000122949012645
+  hidden position_26_0 -0.9000015029063534
+  hidden linearVelocity_26 0.00014255018294221267 4.78479119356762e-06 5.153415451235588e-05
+  hidden angularVelocity_26 -4.654467348743816e-05 0.0011790732317662938 -1.1995615492178254e-06
+  hidden rotation_27 -1 0 0 0.9000015029063533
+  hidden position_27_1 1.1800001913865326
+  hidden linearVelocity_27 0.00010680844933049852 3.4953701818478293e-06 0.00017067492265039033
+  hidden angularVelocity_27 -4.654424036340629e-05 0.0011790732183963248 -1.2026135131152157e-06
+  hidden rotation_29 1 0 0 1.1800001913865326
+  hidden linearVelocity_29 0.000258043179176328 9.518310058599678e-06 0.0002225700556020472
+  hidden angularVelocity_29 -4.654428470518331e-05 0.0011790734708484417 -1.2022385436462792e-06
+  hidden rotation_30 0 0 1 0.45463127693001487
+  hidden position_30_0 -0.9000014938845289
+  hidden linearVelocity_30 0.00015747796509582798 4.646330903648245e-06 -9.542963349468012e-05
+  hidden angularVelocity_30 0.000928717803366518 0.023651987073201194 0.0005156870304443715
+  hidden rotation_31 -1 0 0 0.9000014938845289
+  hidden position_31_1 0.9493401663663259
+  hidden linearVelocity_31 -0.000815164885324307 9.963213636118697e-05 -0.002700662500931081
+  hidden angularVelocity_31 0.0009286915617028617 0.023651993139104127 0.0005156248984316886
+  hidden rotation_33 1 0 0 0.9493401663663258
+  hidden linearVelocity_33 0.008616441099798519 0.01124036569127305 0.006761745736858171
+  hidden angularVelocity_33 -0.08435543926077937 0.02639329120274485 0.04227829352728877
+  translation 3.225072883543661 0.38120072510348196 0.12295596194298121
+  rotation -0.6915891671948149 0.722243238069964 0.008314377968058635 3.1257095733062488
+}
+OfficeChair {
+  hidden position_0_0 -0.0018022086209151394
+  hidden rotation_1 0 0 -1 0.001802208620971983
+  translation 2.168150004204515 1.8085204804100674 -0.001415119547300947
+  rotation 0.0006963021987056603 -0.0007086612176903329 0.9999995064811414 1.5711602770071444
+}
+Monitor {
+  translation 2.18 2.79 0.69
+  rotation 0 0 1 -1.5707953071795862
+}
+DesktopComputer {
+  translation 2.64 2.7 0.72
+  rotation 0 0 1 -1.5707953071795862
+}
+Bed {
+  translation -2.04 1.94 0
+  rotation 0 0 1 1.01503e-06
+}
+Create {
+  hidden position_0_0 2463.384581903179
+  hidden position_0_1 2976.6652097198325
+  hidden linearVelocity_0 0.019869260232706663 0.004950462833039936 0.0036085651849672097
+  hidden angularVelocity_0 0.0044848843570407994 -0.010837261295952047 -1.83601646122492
+  hidden rotation_1 0 1 0 0.37594148878106975
+  hidden linearVelocity_1 0.2633179349903254 0.054877341369585476 -0.0009527242358907133
+  hidden angularVelocity_1 -1.966133652657339 7.742840112742879 -1.8907676690528692
+  hidden rotation_2 0 -1 0 1.5646258832914435
+  hidden linearVelocity_2 -0.21831209390774173 -0.06628061160821358 -0.0009959680143317186
+  hidden angularVelocity_2 1.9752454574806668 -7.764479810951002 -1.8918367429284968
+  hidden translation_6 0.004389413505891948 0.0015676405166114016 0.004748288253273392
+  hidden rotation_6 -0.8442060423682108 0.3788130155506834 0.3792319307210303 -1.7390182687011606
+  hidden linearVelocity_6 -0.18042267669179848 0.147743364176828 0.002330523032371422
+  hidden angularVelocity_6 0.004484883038578308 -0.010837263718370092 -1.8360164946712616
+  hidden translation_7 0.004538601782720697 0.00037884079839400897 0.002268819610458217
+  hidden rotation_7 -0.3024307436507727 0.6738677010097576 0.6741201427272923 -2.553608599448276
+  hidden linearVelocity_7 0.12918040408446874 0.22291802960412477 0.002540369490002624
+  hidden angularVelocity_7 0.004484885670304261 -0.010837262580759763 -1.8360164962160177
+  translation 3.150888917122553 -2.721552271208255 0.04228313689087284
+  rotation -0.007032942332209118 -0.0006770418954902395 -0.999975039356695 2.944737283070926
+}
+BunchOfSunFlowers {
+  translation -3.23 -2.68 0
+}
+Desk {
+  translation 2.14 2.59 0
+  rotation 0 0 1 -1.5707953071795862
+}
+Desk {
+  translation 3.09 2.34 0
+  rotation 0 0 1 3.14159
+  name "desk(1)"
+}
+Keyboard {
+  translation 2.07 2.57 0.72
+  rotation 0 0 1 1.5708
+}
+Sofa {
+  translation 0.58 -0.09 0
+  rotation 0 0 1 -1.5707953071795862
+}
+Radiator {
+  translation -3.27 2.19 0.3
+}
+Television {
+  translation 0.500003 -3.03 1.48
+  rotation 0 0 1 1.5708
+}
+Carpet {
+  translation -0.86 -1.13 0
+}
+Carpet {
+  translation -0.86 0.46 0
+  name "carpet(1)"
+}
+Carpet {
+  translation 1.51 0.47 0
+  name "carpet(3)"
+}
+Carpet {
+  translation 1.51 -1.12 0
+  name "carpet(2)"
 }
